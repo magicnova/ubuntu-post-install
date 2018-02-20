@@ -16,6 +16,7 @@ sudo apt-get update
 #misc
 sudo apt-get -y install vlc
 sudo apt-get -y install google-chrome-stable
+sudo apt -y install curl
 
 #nodejs & npm
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
@@ -38,6 +39,14 @@ mkdir temp
 wget https://downloads.slack-edge.com/linux_releases/slack-desktop-3.0.5-amd64.deb -O temp/slack.deb
 sudo dpkg -i temp/slack.deb
 rm -d -r temp
+
+
+
+
+#top programming fonts
+curl -L https://github.com/hbin/top-programming-fonts/raw/master/install.sh | bash
+
+
 
 
 

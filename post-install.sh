@@ -1,3 +1,4 @@
+#!/bin/bash
 
 #repositories
 sudo add-apt-repository -y "deb https://packages.microsoft.com/repos/vscode stable main"
